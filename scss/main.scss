@@ -8,6 +8,20 @@ $font-sm: 24px;
 
 .nav {
     background-color: $primary-color;
+
+    li {
+        list-style-type: none;
+
+        a {
+            text-decoration: none;
+            font-size: $font-md;
+            color: $tertiary-color;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
 }
 
 .banner > h1 {
