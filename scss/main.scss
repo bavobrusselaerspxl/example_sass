@@ -21,6 +21,10 @@ $font-sm: 24px;
     transition: $params;
 }
 
+@function increaseFontSize($size) {
+    @return $size * 2;
+}
+
 .nav {
     background-color: $primary-color;
     @include margin-padding(5px);
@@ -69,4 +73,5 @@ footer {
 
 p {
     @extend %background-primary;
+    font-size: increaseFontSize($font-sm);
 }
