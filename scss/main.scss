@@ -1,3 +1,23 @@
-body {
-    background-color: red;
+$primary-color: red;
+$secondary-color: blue;
+$tertiary-color: yellow;
+
+$font-lg: 70px;
+$font-md: 50px;
+$font-sm: 24px;
+
+.nav {
+    background-color: $primary-color;
+}
+
+.banner > h1 {
+    font-size: $font-lg;
+    color: $secondary-color;
+    text-align: center;
+}
+
+footer > h3 {
+    font-size: $font-md;
+    color: $primary-color;
+    text-align: center;
 }
